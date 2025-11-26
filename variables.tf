@@ -5,9 +5,9 @@ variable "compartment_id" {
 }
 
 variable "project_name" {
-  description = "Prefixo para nomear os recursos (Ex: Blusy-Prod, Blusy-Dev)"
+  description = "Prefixo para nomear os recursos (Ex: Prod, Dev)"
   type        = string
-  default     = "Blusy-Padrao"
+  default     = "Padrao"
 }
 
 # --- Acesso ---
@@ -29,3 +29,4 @@ variable "instance_ocpus" {
 variable "instance_memory" {
   default = 24
 }
+
